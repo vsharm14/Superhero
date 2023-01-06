@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+}
+#nav li{
+    list-style: none;
+    width: 15vw;
+    padding: 10px;
+    text-align: center;
+}
+#main{
+    display: display;
+}
+#main div{
+    flex-direction: row;
+}
+#searchSection{
+    display: block;
+    position: relative;
+    width :50vw;
+    margin-left: 30vw;
+    margin-top: 100px;
+}
+#searchList{
+    display :none;
+    position: absolute;
+    z-index: 1;
+    top:45px;
+    left: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-bottom-left-radius: 20px;;
+    opacity: 0.8;
+    padding: 0px;
+    height: 50vh;
+    overflow: scroll;
+}
+#searchList{
+    width : 27vw;
+}
+#searchList li{
+    padding: 5px;
+}
+#searchList li:hover{
+    background-color: papayawhip;
+    border-radius: 10px;
+}
+#searchBox{
+    width: 30%;
+    align-self: center;
+}
+#superHeroesList{   
+    list-style: none;
+    display :flex;
+    flex-wrap: wrap;
+}
+
+#pagination{
+    display: block;
+}
+
+#superHeroesList li{    
+    width : 10vw;
+    margin: 10px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    flex-grow: inherit;
+}
+
+#superHeroesList li img:hover{
+    width : 92%;
+    height: 90%;
+    margin: 3px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    transition: all 2s;
+    cursor: pointer;
+    box-shadow: 2px gray;
+}
+#secondaryDetails{
+    display: flex;
+    flex-direction: column;
+} 
+
+#secondaryDetails div{
+    width : 100%;
+}
+
+#heroImg,#heroName,#heroDesc{
+    display: flex;
+   justify-content: center;
+}
+#heroImg img{
+    border-radius: 50%;
+    min-width : 20vw;
+    box-shadow: red 10px;
+    margin :15px;
+}
+#heroDetailSection{
+    display: flex;
+}
+#heroDetailSection div{
+    width : 33.3%
+}
+li{
+    list-style: none;
+}
+#heroMainDetails{
+    display: flex;
+    flex-direction: column;
+}
+#heroComics,#heroStories,#heroSecDetails{
+    background-color: white;
+    border : black solid 2px;
+    border-radius: 50px;
+    margin :10px;
+    z-index: 1;;
+}
+
+#heroMainDetails div{
+    width : 100%;
+}
+
+#nav{
+    background-color: black;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+nav li{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    width: 20px;
+}
+
+
+nav li:hover{
+    background-color: pink;
+    color:black;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#searchBox{
+    height :20px;
+    width: 30vw;
+    border-radius: 20px;
+    color : grey;
+    padding: 10px;
+    font-size : 20px;
+}
+#searchBtn{
+    margin-left: 10px;
+    height: 40px;
+    width: 13vw;
+    border-radius: 20px;
+    font-size : 20px;
+    color: whitesmoke;
+    background-color: black;
+}
+#searchBtn:hover{
+    background-color: bisque;
+    color: black;
+}
+
+#favourite h1{
+    text-align: center;
+}
+
+#favouriteHeroList{
+    display: flex;
+    flex-wrap: wrap;
+}
+#favouriteHeroList li {
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin : 10px;
+    padding: 30px;
+    border : 1px solid black;
+    width: 40vw;
+}
+
+#favouriteHeroList li img{
+    width : inherit;
+    border-radius: 20px;
+}
+
+#favouriteHeroList li img:hover{
+    cursor: pointer;
+}
+
+.searchBtn{
+    margin-right: 4px;
+}
+
+/* .searchBtn:hover{
+    background-color: red;
+} */
+
+.fa-heart-o:hover{
+    background-color: red;
+}
+.searchList li{
+    display: flex;
+    justify-content: space-between;
+}
